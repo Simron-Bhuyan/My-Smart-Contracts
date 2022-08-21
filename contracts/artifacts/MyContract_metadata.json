@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "getMoney",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amt",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/errorHandling.sol": "MyContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/errorHandling.sol": {
+			"keccak256": "0xab429434d33fd54adccb5e1d35d5b9a053d07275bf20866cfe458ade9f677b51",
+			"urls": [
+				"bzz-raw://1656d8421a5f417cebe3c6e7893a79bcf65d63cff013e1e464c7cc4c1eeed6ae",
+				"dweb:/ipfs/Qmf59ULTzdZ48xd83H5GFcmrai1X9zhtY2CDMNMrdViHrp"
+			]
+		},
+		"contracts/own.sol": {
+			"keccak256": "0x0cff6d98eb5c2d6b6b1e14f74cc8bd25ffa3f88a781ef34726aebd71fa2b036c",
+			"urls": [
+				"bzz-raw://6c8cf52ce549e766afd668a9102154255fd9abce67e3219910bfdbe8e6098c2e",
+				"dweb:/ipfs/QmPwuZN4UtCpigaPXHrjmZX1w1ojkvJJKFjvV1dEhyNdjj"
+			]
+		}
+	},
+	"version": 1
+}

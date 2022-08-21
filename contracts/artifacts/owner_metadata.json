@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/own.sol": "owner"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/own.sol": {
+			"keccak256": "0x171e165103fdb3a7a55ebd6acaf4a66ff3c92bea4ca5f255bf016b736e2497b4",
+			"urls": [
+				"bzz-raw://6911c23d70e41ec5df3cac5372da4f5365a8aed8c915cfd21c68209f11a10239",
+				"dweb:/ipfs/QmaBrYPEQr8LNisYAtEsaCmDxuStdjVfuoMTqpEbtZm8nS"
+			]
+		}
+	},
+	"version": 1
+}
